@@ -17,4 +17,8 @@ $(document).ready(function () {
 		window.open('http://po.bisku.id')
 	})
 
+	$('#brids').click(function () {
+		window.open('https://eform.brights.co.id')
+	})
+
 })
