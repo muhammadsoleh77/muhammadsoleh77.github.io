@@ -1,24 +1,26 @@
 $(document).ready(function () {
+  $("#menu").click(function () {
+    $(this).toggleClass("fa-times");
+    $("header").toggleClass("toggle");
+  });
 
-	$('#menu').click(function () {
-		$(this).toggleClass('fa-times');
-		$('header').toggleClass('toggle');
-	})
+  $("#indoData").click(function () {
+    window.open("http://indo-data.id");
+  });
 
-	$('#indoData').click(function () {
-		window.open('http://indo-data.id')
-	})
+  $("#imezi").click(function () {
+    window.open("https://imezi.com");
+  });
 
-	$('#imezi').click(function () {
-		window.open('https://imezi.com')
-	})
+  $("#bumel").click(function () {
+    window.open("http://po.bisku.id");
+  });
 
-	$('#bumel').click(function () {
-		window.open('http://po.bisku.id')
-	})
+  $("#brids").click(function () {
+    window.open("https://eform.brights.co.id");
+  });
 
-	$('#brids').click(function () {
-		window.open('https://eform.brights.co.id')
-	})
-
-})
+  $("#rmtools").click(function () {
+    window.open("https://rmtools.bankmandiri.co.id");
+  });
+});
