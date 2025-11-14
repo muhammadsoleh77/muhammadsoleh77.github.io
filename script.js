@@ -23,4 +23,8 @@ $(document).ready(function () {
   $("#rmtools").click(function () {
     window.open("https://rmtools.bankmandiri.co.id");
   });
+
+  $("#mass").click(function () {
+    window.open("https://mass.bankmandiri.co.id");
+  });
 });
